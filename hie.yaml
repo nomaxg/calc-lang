@@ -1,0 +1,19 @@
+cradle:
+  cabal:
+    - path: "src/Main.hs"
+      component: "test:exe:test"
+
+    - path: "src/TestLib.hs"
+      component: "test:exe:test"
+
+    - path: "src/Lexer.hs"
+      component: "test:exe:test"
+
+    - path: "src/Parser.hs"
+      component: "test:exe:test"
+
+    - path: "src/Compiler.hs"
+      component: "test:exe:test"
+
+    - path: "src/Syntax.hs"
+      component: "test:exe:test"
